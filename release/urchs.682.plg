@@ -1,16 +1,19 @@
-<?xml version='1.0' standalone='yes'?>
+<?xml version='1.1' standalone='yes'?>
 <!DOCTYPE PLUGIN [
 <!ENTITY title      "unRAID 简体中文汉化包">
 <!ENTITY name      "urchs.682">
 <!ENTITY author    "KleinerSource">
-<!ENTITY version   "v1.0">
+<!ENTITY version   "v1.1">
 <!ENTITY github    "...">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/liwenjie119/unRAID-chs-project/master/release/&name;.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/louis000008/unRAID-chs-project/master/release/&name;.plg">
 ]>
 
 <PLUGIN name="&title;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.8.2" max="6.8.2" support="" icon="users">
 
 <CHANGES>
+ ###v1.1  2021年1月7日
+- 修复 Dashboard Docker容器界面里“已启动”前面的运行图标变红色问题
+  
 ###v1.0
 - 修复错误
 
@@ -40,7 +43,7 @@
 The 'source' file.
 -->
 <FILE Name="/boot/config/plugins/&name;/&name;-&version;-x86_64-1.txz" Run="upgradepkg --install-new">
-<URL>https://raw.githubusercontent.com/liwenjie119/unRAID-chs-project/master/release/&name;-&version;-x86_64-1.txz</URL>
+<URL>https://raw.githubusercontent.com/louis000008/unRAID-chs-project/master/release/&name;-&version;-x86_64-1.txz</URL>
 </FILE>
 
 <!--
