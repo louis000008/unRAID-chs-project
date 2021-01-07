@@ -11,7 +11,7 @@
 <PLUGIN name="&title;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.8.2" max="6.8.2" support="" icon="users">
 
 <CHANGES>
- ###v1.1  2021年1月7日
+###v1.1  2021年1月7日
 - 修复 Dashboard Docker容器界面里“已启动”前面的运行图标变红色问题
   
 ###v1.0
